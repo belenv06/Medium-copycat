@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&display=swap');
+
+body {
+  margin: 0px;
+ letter-spacing: 0.1em;
+  font-family: 'Nanum Gothic Coding', monospace;
+  color: rgb(131, 131, 131);
+}
+
+
+p {
+  /* font-family: 'Nunito', sans-serif; */
+  /* font-family: 'Spline Sans', sans-serif; */
+  font-family: 'Be Vietnam Pro', sans-serif;
+  font-weight: 200;
+  
+}
+
+div {
+  display: block;
+}
+
+.banner {
+  background-image: url("https://source.unsplash.com/category/interiors/1000x500");
+  /* https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80 */
+  background-size: cover;
+  padding: 200px 0px;
+  color: white;
+  /* object-position: top center; */
+}
+
+.container {
+  margin: 50px auto;
+  width: 700px;
+}
+
+.container h2 {
+  color: rgb(46, 46, 46);
+  font-weight: 800;
+}
+
+.container a {
+  text-decoration: none;
+  color: rgb(199, 138, 138);
+  background-color: rgb(245, 237, 237);
+  font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+.container a:hover {
+  color: white;
+  background-color: burlywood;
+  padding: 0px 10px;
+  transition: ease .3s;
+  
+}
